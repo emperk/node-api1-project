@@ -56,7 +56,7 @@ You can find them inside `api/users/model.js`. All of these functions return Pro
 
 When the client makes a `POST` request to `/api/users`:
 
-- [] If the request body is missing the `name` or `bio` property:
+- [X] If the request body is missing the `name` or `bio` property:
 
   - respond with HTTP status code `400` (Bad Request).
   - return the following JSON response: `{ message: "Please provide name and bio for the user" }`.
